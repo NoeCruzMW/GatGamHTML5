@@ -1,15 +1,9 @@
 body {
-    
     background-image: url("img/qwe.jpg");
-    
     background-position: center center;
-    
     background-repeat: no-repeat;
-    
     background-attachment: fixed;
-    
     background-size: cover;
-    
     background-color: #0A6789;
 }
 
@@ -90,7 +84,7 @@ footer {
     transition: all 1s;
 }
 
-#miModal:target {
+#win:target {
     opacity: 1;
     pointer-events: auto;
 }
@@ -126,4 +120,8 @@ footer {
 footer {
     color: #FFFFFF;
     text-shadow: 2px 2px 6px #AAD6E3;
+}
+
+#btnNew:hover {
+    background-color: #1F78D3;
 }
