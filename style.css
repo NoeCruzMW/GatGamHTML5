@@ -1,0 +1,129 @@
+body {
+    
+    background-image: url("img/qwe.jpg");
+    
+    background-position: center center;
+    
+    background-repeat: no-repeat;
+    
+    background-attachment: fixed;
+    
+    background-size: cover;
+    
+    background-color: #0A6789;
+}
+
+header {
+    width: 60%;
+    margin: 10px auto;
+}
+
+#titulo {
+    width: 70%;
+    margin: 10px auto;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: #6D6B6B 3px 3px 2px;
+    border: 3px outset;
+    border-radius: 13px;
+    color: #FFFFFF;
+}
+
+#turno {
+    font-size: 20px;
+    color: #FFFFFF;
+    display: inline;
+    margin: 40px;
+    text-align: justify;
+    text-shadow: #FFFFFF 1px 1px 4px;
+}
+
+table {
+    width: 60%;
+    margin: 10px auto;
+    font: bold;
+    border: 3px outset;
+    border-radius: 25px;
+    border-spacing: 8px;
+}
+
+th {
+    font: bold 50px;
+    padding: 10px;
+    border-radius: 10px;
+    border-spacing: 10px;
+    text-shadow: 2px 2px #7A7878;
+    position: absolute;
+}
+
+th:hover {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+footer {
+    margin: #000000 10px;
+    width: 1000px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.modal-contenido {
+    background-color: #1294A0;
+    width: 200px;
+    height: 150px;
+    padding: 10px 20px;
+    margin: 20% auto;
+    position: relative;
+}
+
+.modal {
+    background-color: rgba(0, 0, 0, .8);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 1s;
+}
+
+#miModal:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.btn_per {
+    width: 20px;
+    height: 10px;
+    text-decoration: none;
+    text-align: center;
+    padding: 7px;
+    /*font-weight: 600;*/
+    font-size: 10px;
+    color: #ffffff;
+    background-color: #1F78D3;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+    margin-left: 35px;
+}
+
+.btn_per:hover {
+    color: #1883ba;
+    background-color: #ffffff;
+}
+
+#inter {
+    width: 100%;
+    height: 100%;
+    padding: 1px;
+    border: 1px dashed;
+    border-radius: 10px;
+}
+
+footer {
+    color: #FFFFFF;
+    text-shadow: 2px 2px 6px #AAD6E3;
+}
